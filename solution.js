@@ -39,3 +39,23 @@ switch (grade) {
     console.log("Q2: Yikes...");
     break;
 }
+
+const fruit = "orange";
+
+switch (fruit) {
+  case "apple":
+    console.log("Q3: An apple a day keeps the doctor away.");
+    break;
+  case "banana":
+    console.log("Q3: Bananas are full of potassium.");
+    break;
+  case "orange":
+    console.log("Q3: Yep, oranges. Great choice.");
+    break;
+  case "strawberries":
+    console.log("Q3: Mmmm...nothing better than strawberries.");
+    break;
+  default:
+    console.log("Q3: PICK A FRUIT");
+    break;
+}
