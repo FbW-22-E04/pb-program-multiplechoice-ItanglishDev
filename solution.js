@@ -75,3 +75,5 @@ if (percentageComplete > 30 && percentageComplete < 50) {
 } else {
   console.log();
 }
+
+//if else allows me more options and multiple cases, switch just fix cases
